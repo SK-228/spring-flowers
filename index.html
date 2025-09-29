@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Перші весняні квіти</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Логотип Перші весняні квіти" class="logo">
+      <div class="site-title">
+        <h1>Перші весняні квіти</h1>
+        <p class="tagline">Натхнення від пробудження природи</p>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Головна</a>
+      <div class="dropdown">
+        <button class="dropbtn">Квітки ▾</button>
+        <div class="dropdown-content">
+          <a href="flowers/01-pidsnizhnyk.html">Підсніжник</a>
+          <a href="flowers/02-krokus.html">Крокус</a>
+          <a href="flowers/03-anemona.html">Анемона</a>
+          <a href="flowers/04-mati-machukha.html">Мати-й-мачуха</a>
+          <a href="flowers/05-prymula.html">Примула</a>
+          <a href="flowers/06-pulsatilla.html">Сон-трава</a>
+          <a href="flowers/07-violeta.html">Фіалка</a>
+          <a href="flowers/08-tulipa.html">Тюльпан Шренка</a>
+          <a href="flowers/09-hyacinth.html">Гіацинт</a>
+          <a href="flowers/10-nartsys.html">Нарцис</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="assets/hero-spring.gif" alt="Перші весняні квіти — GIF" class="hero-gif">
+      <div class="hero-caption">
+        <h2>Весна приходить ніжно</h2>
+        <p>Кожна квітка — історія про пробудження та оновлення.</p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h3>Квітки цього сезону</h3>
+      <div class="cards">
+        <article class="card">
+          <a href="flowers/01-pidsnizhnyk.html">
+            <img src="assets/pidsnizhnyk.png" alt="Підсніжник">
+            <h4>Підсніжник</h4>
+            <p>Ніжна біла квітка, що з'являється найпершою.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/02-krokus.html">
+            <img src="assets/krokus.png" alt="Крокус">
+            <h4>Крокус</h4>
+            <p>Яскраві забарвлення на початку весни.</p>
+          </a>
+        </article>
+        <article class="card">
+          <a href="flowers/03-anemona.html">
+            <img src="assets/anemona.png" alt="Анемона">
+            <h4>Анемона</h4>
+            <p>Біла лісова квітка з витонченими пелюстками.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/04-mati-machukha.html">
+            <img src="assets/mati-machukha.png" alt="Мати-й-мачуха">
+            <h4>Мати-й-мачуха</h4>
+            <p>Яскраві жовті кошики — ознака ранньої весни.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/05-prymula.html">
+            <img src="assets/prymula.png" alt="Примула">
+            <h4>Примула</h4>
+            <p>Компактні кластери м'яких кольорів.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/06-pulsatilla.html">
+            <img src="assets/pulsatilla.png" alt="Сон-трава">
+            <h4>Сон-трава</h4>
+            <p>Пухнасті чашолистки й яскраве сяйво серединки.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/07-violeta.html">
+            <img src="assets/violeta.png" alt="Фіалка">
+            <h4>Фіалка</h4>
+            <p>Делікатна ароматна квітка ранньої весни.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/08-tulipa.html">
+            <img src="assets/tulipa.png" alt="Тюльпан Шренка">
+            <h4>Тюльпан Шренка</h4>
+            <p>Дикий тюльпан — простий і благородний.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/09-hyacinth.html">
+            <img src="assets/hyacinth.png" alt="Гіацинт">
+            <h4>Гіацинт</h4>
+            <p>Суцвіття-«гроно» яскравих дзвоників.</p>
+          </a>
+        </article>
+
+        <article class="card">
+          <a href="flowers/10-nartsys.html">
+            <img src="assets/nartsys.png" alt="Нарцис">
+            <h4>Нарцис</h4>
+            <p>Класичний символ весни з жовтою серединкою.</p>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> «Перші весняні квіти» — Всі права збережено</p>
+    </footer>
+  </main>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
